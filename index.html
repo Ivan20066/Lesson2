@@ -2,21 +2,94 @@
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Главная</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
     <link rel="stylesheet" href="./css/main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700;800&display=swap" rel="stylesheet">
+    <title>Vdeo production</title>
 </head>
 <body>
  <div class="wrapper">
      <section class="hero">
-         <div class="conteaner">
+         <div class="container">
          <header class="header">
             <a href="/" class="logo">
-                <img src="" alt="логотип" class="logo__img">
+                <img src="./img/logo.png" alt="логотип" class="logo__img">
             </a>
+            <nav class="menu">
+                <ul class="menu__list">                  
+                    <li class="menu__item"><a href="#" class="menu__link">Главная</a></li>                    
+                    <li class="menu__item menu__item--active"><a href="#" class="menu__link">Услуги</a></li>                   
+                    <li class="menu__item"><a href="#" class="menu__link">Отзывы</a></li>                                       
+                </ul>
+            </nav>
+           <address class="contacts">
+               <a href="tel+78007003030" class="contacts__phone">8 800 700 30 30</a>
+              <div class="contacts__dropdown-title">График работы</div>
+           </address>
          </header>
+         <div class="hero__content">
+             <div class="hero__text-section">
+                 <h1 class="hero__title">Снимем для вас креативное видео</h1>
+                 <h4 class="hero__title--subtitle">Креативный видеопродакшен полного цикла</h4>
+                 <a href="#" class="btn">Подробнее</a>
+             </div>
+         </div>
         </div>
      </section>
+     <cection class="cection">
+         <div class="container">
+            <ul class="offers">
+                <li class="offers__item">
+                    <div class="offers__header">
+                        <img src="./img/clapper.png" alt="" class="offers__header-img">
+                    </div>
+                    <div class="offers__content">
+                    <h3 class="offers__title">Реклама</h3>
+                    <div class="offers__conditions">                        
+                        <div class="offers__conditions--time">от <span>7</span>человек на проект</div>
+                        <div class="offers__conditions--time">от <span>21</span>дней работы в среднем</div>                    
+                    </div>
+                        <div class="offers__text"></div>
+                        <a href="#" class="btn">Подробнее</a>
+                    
+                </div>
+                </li>   
+            
+                <li class="offers__item">
+                    <div class="offers__header">
+                        <img src="./img/clapper.png" alt="" class="offers__header-img">
+                    </div>
+                    <div class="offers__content">
+                    <h3 class="offers__title">Видео-клип</h3>
+                    <div class="offers__conditions">                        
+                        <div class="offers__conditions--time">от <span>7</span>человек на проект</div>
+                        <div class="offers__conditions--time">от <span>21</span>дней работы в среднем</div>                    
+                    </div>
+                        <div class="offers__text"></div>
+                        <a href="#" class="btn">Подробнее</a>
+                    
+                </div>
+                </li>
+          
+         
+                <li class="offers__item">
+                    <div class="offers__header">
+                        <img src="./img/film.png" alt="" class="offers__header-img">
+                    </div>
+                    <div class="offers__content">
+                    <h3 class="offers__title">Свадьба</h3>
+                    <div class="offers__conditions">
+                        <div class="offers__conditions--time">от <span>2</span>человек на проект</div>
+                        <div class="offers__conditions--time">от <span>30</span>дней работы в среднем</div>
+                    </div>
+                        <div class="offers__text"></div>
+                        <a href="#" class="btn">Подробнее</a>
+                    
+                </div>
+                </li>
+            </ul>
+         </div>
+     </cection>
  </div>
 </body>
 </html>
