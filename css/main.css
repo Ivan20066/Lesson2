@@ -39,7 +39,7 @@ p {
 .logo {
     display: block;
     position: absolute;
-    top:  26px;
+    top:  21px;
     left: 4px;
     width: 198px;
     height: 46px;
@@ -89,6 +89,7 @@ p {
     font-size: 13px;
     text-decoration: underline;
     color:  #FF3D00;  
+    line-height: 125%;
 }
 .hero__text-section {
     width: 776px;
@@ -101,7 +102,7 @@ p {
     font-family: Open Sans;
     font-style: normal;
     font-weight: 800;
-    font-size: 72px;
+    font-size: 70px;
     line-height: 98px;
     text-transform: uppercase;
 
@@ -171,8 +172,8 @@ margin-right: 0;
     font-weight: bold;
     font-size: 32px;
     line-height: 44px;
-    margin-bottom: 17px;
-    margin-left: 22px;
+    margin-bottom: 8px;
+    margin-left: 0px;
    
 }
 .offers__conditions--time {
@@ -232,7 +233,8 @@ margin-right: 0;
     margin-bottom: 5px;
 }
 .pager {
-    text-align: center;    
+    text-align: center;  
+    margin-top: 34px;  
 }
 .pager__display, .pager__list {
     display: inline-block;
@@ -241,6 +243,7 @@ margin-right: 0;
 }
 .pager__display {
     margin-right: 26px;
+    margin-top: 31px;
 }
 .pager__item {
     display: inline-block;
@@ -263,6 +266,9 @@ margin-right: 0;
 .pager__link :hover {
     background:#FF3D00 ;
 }
+.about {
+    margin-top: 186px;
+}
 .about::before, .about__desc {
     display:inline-block;
     vertical-align: top;
@@ -272,13 +278,14 @@ margin-right: 0;
     width: 448px;
     height: 502px;
     background: url(../img/cameraman.jpg) center center / cover no-repeat;
+    
 }
 .about__desc {
     background: #ffffff;
     padding: 80px 98px; 
-    width: 780px;
-    margin-top: 166px;
-    margin-left: -142px; 
+    width: 778px;
+    margin-top: 65px;
+    margin-left: -86px; 
 }
 .about__title {
     font-weight: bold;
@@ -300,20 +307,22 @@ margin-right: 0;
 .footer {
     height: 152px;
     position: relative;
+    margin-top: 95px;
 }
 .contacts__desc {
     color: #ffffff;
     font-size: 11px;
+    line-height: 125%;
 }
 .menu-footer{   
     position: absolute;
-    top: 55px;
-    left: 305px;
+    top: 33px;
+    left: 299px;
 }
 
 .socials {
-    top: 53px;
-    right: 260px;
+    top: 28px;
+    right: 253px;
     position: absolute;
 }
 .socials__item {
