@@ -310,10 +310,13 @@ margin-right: 0;
 .about__desc-text p :last-child {
     margin-bottom: 0;
 }
+.footer-container {
+   
+    
+}
 .footer-container__content {
-    border: 1px solid #ffffff;
-    margin-top: 72px;
-    opacity: .1;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    margin-top: 72px;      
 }
 .footer {
     height: 152px;
