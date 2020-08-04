@@ -245,7 +245,7 @@ margin-right: 0;
 
 }
 .pager__display {
-    margin-right: 26px;
+    margin-right: 47px;
     margin-top: 31px;
 }
 .pager__item {
@@ -270,15 +270,16 @@ margin-right: 0;
     background:#FF3D00 ;
 }
 .about {
-    margin-top: 186px;
+    margin-top: 156px;
 }
 .about::before, .about__desc {
     display:inline-block;
     vertical-align: top;
+    border-radius: 4px;
 }
 .about::before {
     content: "";    
-    width: 448px;
+    width: 494px;
     height: 502px;
     background: url(../img/cameraman.jpg) center center / cover no-repeat;
     
@@ -287,8 +288,8 @@ margin-right: 0;
     background: #ffffff;
     padding: 80px 98px; 
     width: 778px;
-    margin-top: 65px;
-    margin-left: -86px; 
+    margin-top: 94px;
+    margin-left: -131px;
 }
 .about__title {
     font-weight: bold;
