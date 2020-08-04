@@ -308,10 +308,15 @@ margin-right: 0;
 .about__desc-text p :last-child {
     margin-bottom: 0;
 }
+.footer-container__content {
+    border: 1px solid #ffffff;
+    margin-top: 72px;
+    opacity: .1;
+}
 .footer {
     height: 152px;
     position: relative;
-    margin-top: 95px;
+    margin-top: 23px;
 }
 .contacts__desc {
     color: #ffffff;
