@@ -198,8 +198,10 @@ margin-right: 0;
 }
 .cection__title {
     font-size: 37px;
+    font-weight: bold;
     text-transform: uppercase;
     margin-top: 142px;
+
 }
 .news__item {
     width: 557px;
